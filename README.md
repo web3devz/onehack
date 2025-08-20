@@ -58,17 +58,6 @@ Our privacy-first approach ensures that:
 - **No Analytics Tracking**: No user behavior tracking or data collection
 - **Decentralized Architecture**: No central servers to compromise your data
 
-#### Current Implementation Status
-
-| Feature | Status | Description |
-|---------|--------|-------------|
-| Google OAuth | 🚧 Coming Soon | Authenticate using Google accounts |
-| Apple OAuth | 🚧 Coming Soon | Authenticate using Apple ID |
-| Facebook OAuth | 🚧 Coming Soon | Authenticate using Facebook accounts |
-| Twitter OAuth | 🚧 Coming Soon | Authenticate using Twitter accounts |
-| Discord OAuth | 🚧 Coming Soon | Authenticate using Discord accounts |
-| Zero-Knowledge Proofs | 🚧 In Development | Privacy-preserving authentication |
-| Local Storage Integration | ✅ Complete | Secure local wallet storage |
 
 #### Technical Implementation
 
@@ -289,8 +278,8 @@ Our privacy implementation adheres to:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd onechain-multisig-wallet
+   git clone https://github.com/web3devz/onehack.git
+   cd onehack
    ```
 
 2. **Install dependencies**
@@ -577,10 +566,7 @@ If you encounter any issues or have questions:
 
 ## 🔗 Links
 
-- **OneChain Documentation**: [doc-testnet.onelabs.cc](https://doc-testnet.onelabs.cc/)
-- **OneChain Explorer**: [onescan.cc](https://onescan.cc)
-- **OneChain Faucet**: [faucet-testnet.onelabs.cc](https://faucet-testnet.onelabs.cc)
-
+- **Demo**: [doc-testnet.onelabs.cc](https://doc-testnet.onelabs.cc/)
 ## ⚡ Performance
 
 - **Fast Loading**: Optimized with Next.js 15 and modern bundling
@@ -588,16 +574,6 @@ If you encounter any issues or have questions:
 - **Responsive**: Works smoothly on all device sizes
 - **Offline Capable**: Core functionality works without internet
 
-## 🔮 Roadmap
-
-- [ ] Transaction proposal system
-- [ ] Multi-device sync (optional)
-- [ ] Advanced signature workflows
-- [ ] Integration with hardware wallets
-- [ ] Mobile app (React Native)
-- [ ] Advanced analytics and reporting
-
----
 
 <div align="center">
 
